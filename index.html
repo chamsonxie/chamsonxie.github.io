@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的网站 · chamsonxie</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0e1013; color: #e8e8e8; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; min-height: 100vh; padding: 48px 20px; }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  header { margin-bottom: 36px; }
+  h1 { font-size: 28px; margin-bottom: 8px; }
+  header p { color: #9aa0a6; font-size: 15px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .card { background: #171a1f; border: 1px solid #262b33; border-radius: 14px; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+  .card:hover { border-color: #3d4450; }
+  .icon { font-size: 28px; }
+  .card h2 { font-size: 18px; }
+  .card p { color: #9aa0a6; font-size: 14px; line-height: 1.6; flex: 1; }
+  .links { display: flex; gap: 12px; font-size: 14px; }
+  .links a { color: #7fb3ff; text-decoration: none; }
+  .links a:hover { text-decoration: underline; }
+  footer { margin-top: 36px; color: #6b7280; font-size: 13px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>我的网站</h1>
+    <p>GitHub Pages 作品总入口 · chamsonxie.github.io</p>
+  </header>
+  <div class="grid">
+    <div class="card">
+      <div class="icon">🚗</div>
+      <h2>特斯拉数字车衣 · 皮肤收藏馆</h2>
+      <p>210 套 Model Y 数字车衣皮肤，支持车型筛选、原作者出处、一键下载 PNG 与 U 盘安装教程。</p>
+      <div class="links"><a href="https://chamsonxie.github.io/tesla-wrap-gallery/">访问网站 →</a><a href="https://github.com/chamsonxie/tesla-wrap-gallery">GitHub 仓库</a></div>
+    </div>
+    <div class="card">
+      <div class="icon">📡</div>
+      <h2>特斯拉 Model 3/Y CAN 信号数据库</h2>
+      <p>13,000+ 条公开 CAN 信号，支持按 CAN ID、信号名筛选、收藏与 CSV/JSON 导出，含中文含义与 Juniper 适用性标注。</p>
+      <div class="links"><a href="https://chamsonxie.github.io/tesla-can-signal-db/">访问网站 →</a><a href="https://github.com/chamsonxie/tesla-can-signal-db">GitHub 仓库</a></div>
+    </div>
+    <div class="card">
+      <div class="icon">🎮</div>
+      <h2>网页 NES 模拟器</h2>
+      <p>70 个免费自制 / 公有领域 NES 游戏，浏览器里直接玩，也支持上传本地 .nes 文件。</p>
+      <div class="links"><a href="https://chamsonxie.github.io/nes-web-emulator/">访问网站 →</a><a href="https://github.com/chamsonxie/nes-web-emulator">GitHub 仓库</a></div>
+    </div>
+  </div>
+  <footer>chamsonxie · 全部内容托管于 GitHub Pages</footer>
+</div>
+</body>
+</html>
